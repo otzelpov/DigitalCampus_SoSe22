@@ -32,4 +32,19 @@ Mesh-Optimierung mittels MeshLab-Viewer
 + mehrere Verfahren getestet
 	+ Laplacian Smooth Varianten
 
+<hr>
+
+# Erfahrungen mit nvdiffrec (22.06.22)
+
++ Docker Anleitung nicht ganz so gut beschrieben
+	+ bei Jonathan Beispiel Dataset zum laufen bekommen
++ [Keine offizielle/detaillierte Anleitung fuer eigene/custom Datasets](https://github.com/NVlabs/nvdiffrec/issues/33#issuecomment-1133854853)
++ [Fuer custom Datasets wird auf Anleitung von Nerf verwiesen](https://github.com/bmild/nerf#generating-poses-for-your-own-scenes)
+	+ [bzw siehe hier](https://github.com/NVlabs/nvdiffrec/issues/31#issuecomment-1131528519)
+	+ hier hatten wir Schwierigkeiten beim erstellen von Masks, welche nvdiffrec benoetigt
+	+ Python Modul zum erstellen von Mask warf exception 
+	+ jedoch gibt es alternativen fuer dieses Modul (noch nicht getestet)
+	+ Anmerkung: wir hatten es mit einem [Script](https://github.com/NVlabs/nvdiffrec/issues/3#issuecomment-1141588347) aus der "Community" versucht
+
+
 
